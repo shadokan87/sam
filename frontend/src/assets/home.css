@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Lato";
+    src: url("./font//Lato/Lato-Regular.ttf");
+}
+
+html *
+{
+    font-family: "Lato";
+}
+
+.text
+{
+    border: 2px solid #cbd5e1
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+}
+
+textarea#editor
+{
+    font-size: 2em;
+}
+
+div.boxbtn
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+button.publish
+{
+    background-color: #FD2D01;
+}
+
+button.image
+{
+    border: 2px solid #FD2D01;
+    border-radius: 0.25rem;
+    color: #4E5166;
+}
+
+strong
+{
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+.notification
+{
+    height: 50px;
+    display: flex;
+}
+
+.msg
+{
+    font-size: 0.9em;
+}
+
+.notif
+{
+    opacity: 1;
+    animation: fadein 3s;
+}
+
+div#feed
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div.post
+{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    border: 3px solid #FFD7D7;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    width: 350px;
+    padding: 20px;
+}
+
+div.post span, h1
+{
+    color: #4E5166;
+}
+
+div.post img
+{
+    display: flex;
+    margin: 5%;
+}
+
+div.vote
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.vote button
+{
+    font-size: 1.5em;
+    background-color: #FFD7D7;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #4E5166;
+    display: flex;
+}
+
+#removePhoto
+{
+    background-color: #FFD7D7;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+img#preview 
+{
+    width: 150px;
+}

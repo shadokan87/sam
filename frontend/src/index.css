@@ -1,0 +1,17 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/font/Lato/Lato-Regular.ttf");
+}
+
+html *
+{
+  font-family: "Lato";
+}
